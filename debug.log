@@ -1,0 +1,5 @@
+[1116/104309.490:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1117/123232.881:ERROR:process_memory_win.cc(73)] ReadMemory at 0x25ac0e3c000 of 384 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1117/181950.429:ERROR:process_memory_win.cc(73)] ReadMemory at 0x17ce891c000 of 384 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1117/233233.547:ERROR:process_memory_win.cc(73)] ReadMemory at 0x2452745c000 of 384 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1117/233233.553:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Rukky\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\4b4acece-0148-475b-a9b6-6d710b01c4bd: The system cannot find the path specified. (0x3)

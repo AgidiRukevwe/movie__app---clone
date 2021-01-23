@@ -1,0 +1,67 @@
+.movieDetail {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 0%;
+    width: 0%;
+    top: 50%;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: left;
+    opacity: 0;
+    touch-action: none;
+    transition: all 0.5s;
+}
+
+.movieDetail__visible {
+    height: 0;
+    width: 0;
+}
+
+.visible {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+
+.movieDetail__close {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    color: red;
+    padding: 10px;
+    font-size: 20px !important;
+}
+.movieDetail__container {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    padding: 20px;
+    height: 50%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movieDetail__poster {
+    object-fit: contain;
+    max-height: 300px;
+    margin: 10px;
+}
+.movieDetail__info {
+    margin: 10px;
+    width: 60%;
+    text-align: left;
+}
+.movieDetail--darken {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    width: 100%;
+}
